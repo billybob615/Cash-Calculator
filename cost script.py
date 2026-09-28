@@ -6,7 +6,7 @@ while 1 == 1:
     c = Decimal(input('how much is the thing you want to purchase   $'))
     m = Decimal(input('how much money do you have   $'))
     #calculats calculates how much money you will have or need
-    cost = (c*Decimal(1.11)) - m
+    cost = (c*Decimal(0)) - m
     rounded_cost = round(cost, 2)
     if rounded_cost > 0:
         print("you need $",rounded_cost,"more")
